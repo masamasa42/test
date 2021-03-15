@@ -2,9 +2,7 @@
 #https://atcoder.jp/contests/abc141/tasks/abc163_a
 import sys
 
-tmp = input().split()
-n,k = map(lambda a: int(a), tmp)
+r = int(input())
 
-tmp=n%k
-ans=min(tmp,k-tmp)
-print(ans)
+print(2*r*3.14159)
+
